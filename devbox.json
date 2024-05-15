@@ -1,11 +1,9 @@
 {
-  "packages": ["nodejs@22.0.0"],
-  "env": {
-    "DEVBOX_COREPACK_ENABLED": "true"
-  },
-  "shell": {
-    "init_hook": [
-      "pnpm install"
-    ],
-  }
+	"packages": ["nodejs@22.0.0"],
+	"env": {
+		"DEVBOX_COREPACK_ENABLED": "true"
+	},
+	"shell": {
+		"init_hook": ["pnpm install"]
+	}
 }
